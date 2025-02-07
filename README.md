@@ -17,4 +17,14 @@ Payments: Stripe (PCI-compliant)
 Security: JWT, Role-Based Access Control
 
 
+📌 Future Enhancements
+Implement route optimization using Dijkstra’s Algorithm
+Enhance AI-based shop selection using ML models
+Deploy scalable microservices architecture
+
+
+🎯 Contributing
+Contributions are welcome! Feel free to open issues or submit PRs.
+
+
 
