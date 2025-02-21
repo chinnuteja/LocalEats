@@ -19,9 +19,11 @@ public class Restaurant {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @OneToOne
+    @ManyToOne
+    @JoinColumn(name = "owner_id", referencedColumnName = "id")  // Ensure the column name is correct
     private User owner;
 
+    private String name;
     private String description;
     private String cuisineType;
 
